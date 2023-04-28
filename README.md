@@ -14,3 +14,20 @@ To deploy this project run
  Route::get('/clear-caches', [CacheController::class, 'clearAllCaches']);
 
 ```
+# Info
+If you encounter any errors or issues, Laravel will typically log them in the 
+
+```bash
+  storage/logs 
+```
+directory. You can view the logs by running php artisan serve in your terminal and then navigating to 
+```bash
+  http://localhost:8000/storage/logs/laravel.log 
+```
+in your browser
+
+
+## Authors
+
+- [@octokatherine](https://www.github.com/imranniaz)
+
